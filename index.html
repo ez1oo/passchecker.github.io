@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Password Strength Meter</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <canvas id="bg-canvas"></canvas>
+
+  <div class="container">
+    <h2>Create Password</h2>
+    <div class="input-group">
+      <input type="password" id="password" placeholder="Enter password" oninput="checkStrength()" />
+      <span class="toggle-eye" onclick="togglePassword()" id="eye">👁️</span>
+    </div>
+    <div class="strength-bar">
+      <div id="strength-fill" class="strength-fill"></div>
+    </div>
+    <div id="strength-text" class="strength-text">Strength: —</div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
