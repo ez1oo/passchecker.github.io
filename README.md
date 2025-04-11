@@ -1,4 +1,2 @@
-# passchecker.github.io
-this **DOESN'T** save ANY passwords entered into this site.
-----------------------------------------------------------
-password checker i found, i take no credit for this
+# IMPORTANT NOTE!!!
+Once again, Google is saying that the password meter is dangerous. But when you look into the code, there is no password saving on this site. It's completely safe, its just to check how safe your password is.
